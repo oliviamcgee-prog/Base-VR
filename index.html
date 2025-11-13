@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Olivia VR</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+</head>
+<body>
+    <a-scene>
+    <a-entity environment="preset: forest
+    ; dressingAmount: 1000; skyColor:teal; skyColor2:blue; dressingColor:#293F14; groundTexture: walkernoise; groundColor:#37912B; groundColor2:#235B1C; skyType:gradient; 
+    horizonColor:#A7E2E3; ground:canyon; groundYScale:15 dressingScale:10"></a-entity>
+<!-- Museum floor starts here -->
+<a-cylinder id="floor" position="0 0 0" radius="5" color="green" height="0.1"></a-cylinder>
+</a-scene>
+</body>
+</html>
