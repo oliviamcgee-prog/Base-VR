@@ -11,23 +11,20 @@
 </head>
 <body>
     <a-scene>
-    <a-entity environment="preset: forest
-    ; dressingAmount: 1000; skyColor:teal; skyColor2:blue; dressingColor:#09360A; groundTexture: walkernoise; groundColor:#136D15; groundColor2:#268B07; skyType:gradient; 
-    horizonColor:white; ground:canyon; groundYScale:15 dressingScale:10"></a-entity>
+        <a-entity environment="preset: forest; dressingAmount: 1000; skyColor:teal; skyColor2:blue; dressingColor:#09360A; groundTexture: walkernoise; groundColor:#136D15; groundColor2:#268B07; skyType:gradient; horizonColor:white; ground:canyon; groundYScale:15 dressingScale:10"></a-entity>
 
-<a-box id="box1" position="0 1.473 4.907" rotation="0 0 0" scale="10 6 0.2" color="#42F2F7"></a-box>
-<a-box id="box1" position="0 1.473 -4.907" rotation="0 0 0" scale="10 6 0.2" color="#42F2F7"></a-box>
-<a-box id="box1" position="5.049 1.454 -0.008" rotation="0 -90 0" scale="10 6 0.2" color="#42F2F7"></a-box>
-<a-box id="box1" position="-5.049 1.454 -0.008" rotation="0 -90 0" scale="10 6 0.2" color="#42F2F7"></a-box>
-<a-cylinder id="triangle_front" segments-radial="3" position="0 6.5 4.907" rotation="-90 0 0" scale="6 0.2 4" color="#42F2F7"></a-cylinder>
-<a-cylinder id="triangle_front" segments-radial="3" position="0 6.5 -4.907" rotation="-90 0 0" scale="6 0.2 4" color="#42F2F7"></a-cylinder>
-<a-box id="roof_right" position="2.8 7.5 0" rotation="50 90 0" scale="10.931 0.20 8.3" color="#3C6E71"></a-box>
-<a-box id="roof_right" position="-2.8 7.5 -0.017" rotation="50 -90 0" scale="10.931 0.20 8.3" color="#3C6E71"></a-box>
-<a-plane id="art1" src="netherlands-26885_1280 (1).png" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
-<a-plane id="art1" src="images/1000038802.jpg" scale="2 2 0.05" rotation="0 180 0" position="-3 1.934 4.792"></a-plane>
-<a-plane id="info_box" position="0 -0.4 0.6" scale="0.5 0.4 0.01" width="0.8" height="0.25" color="black" transparent="true" opacity="1">
- <a-entity position="-2 1.934 4.792" scale="1.122 1.455 1.273"  shader="flat" text="value: me and Amelia eating BURGERS; align: center; color: #ffffff; font: roboto;"></a-entity>
-</a-plane>
+        <a-cylinder id="floor" position="0 0 0" radius="7.5" color="green" height="0.1"></a-cylinder>
+        <a-box id="box1" position="0 1.473 4.907" rotation="0 0 0" scale="10 6 0.2" color="#42F2F7"></a-box>
+        <a-box id="box1" position="0 1.473 -4.907" rotation="0 0 0" scale="10 6 0.2" color="#42F2F7"></a-box>
+        <a-box id="box1" position="5.049 1.454 -0.008" rotation="0 -90 0" scale="10 6 0.2" color="#42F2F7"></a-box>
+        <a-box id="box1" position="-5.049 1.454 -0.008" rotation="0 -90 0" scale="10 6 0.2" color="#42F2F7"></a-box>
+        <a-cylinder id="triangle_front" segments-radial="3" position="0 6.5 4.907" rotation="-90 0 0" scale="6 0.2 4" color="#42F2F7"></a-cylinder>
+        <a-cylinder id="triangle_front" segments-radial="3" position="0 6.5 -4.907" rotation="-90 0 0" scale="6 0.2 4" color="#42F2F7"></a-cylinder>
+        <a-box id="roof_right" position="2.8 7.5 0" rotation="50 90 0" scale="10.931 0.20 8.3" color="#3C6E71"></a-box>
+        <a-box id="roof_right" position="-2.8 7.5 -0.017" rotation="50 -90 0" scale="10.931 0.20 8.3" color="#3C6E71"></a-box>
+        <a-plane id="art1" src="netherlands-26885_1280 (1).png" scale="2 2 0.05" rotation="0 0 0" position="-0.162 1.934 -4.792"></a-plane>
+        <a-plane id="art1" src="images/1000038802.jpg" scale="2 2 0.05" rotation="0 180 0" position="-3 1.934 4.792"></a-plane>
+
 
 
 </a-scene>
